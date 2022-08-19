@@ -1,0 +1,19 @@
+.food{
+    &-card{
+        box-shadow: 1px 1px 1px;
+        padding:  10px;
+        box-sizing: border-box;
+        .fc-desc{
+            h2{
+                text-transform: capitalize;
+                font-size: 20px;
+                margin-bottom: 10px;
+
+            }
+            p{
+                font-size: 14px;
+                color: #777;
+            }
+        }
+    }  
+}
